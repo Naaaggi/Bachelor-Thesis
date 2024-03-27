@@ -27,13 +27,13 @@ def tsv_to_custom_csv(input_file, output_file, wavs_directory):
 
 if __name__ == "__main__":
     # Replace 'train.tsv' with the actual path to your TSV file
-    input_file_path = "/Users/neji.ghazouani/Downloads/speech_dataset/en/validated.tsv"
+    input_file_path = "/Users/xxx/Downloads/speech_dataset/en/validated.tsv"
 
     # Replace 'metadata.csv' with the desired path for your CSV file
-    output_file_path = "/Users/neji.ghazouani/Desktop/Bachelorarbeit/code/bigmetadata.csv"
+    output_file_path = "/Users/xxx/Desktop/Bachelorarbeit/code/bigmetadata.csv"
 
-    # Replace "/Users/neji.ghazouani/Downloads/speech dataset/wavs" with the actual path to the directory
-    wavs_directory_path = "/Users/neji.ghazouani/Desktop/Bachelorarbeit/code/bigclips"
+    # Replace "/Users/xxx/Downloads/speech dataset/wavs" with the actual path to the directory
+    wavs_directory_path = "/Users/xxx/Desktop/Bachelorarbeit/code/bigclips"
 
     tsv_to_custom_csv(input_file_path, output_file_path, wavs_directory_path)
     print("Conversion completed successfully!")
