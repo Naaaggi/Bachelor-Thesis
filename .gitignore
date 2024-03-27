@@ -1,0 +1,19 @@
+# Ignore bigclips folder
+bigclips/
+
+# Ignore clips folder
+clips/
+
+# Ignore api_secrects.py
+api_secrets.py
+
+# Ignore bigmetadata.csv
+bigmetadata.csv
+
+# Ignore test.model/variables/
+
+test.model/variables/
+
+# Ignore final2.model/variables/
+
+final2.model/variables/
